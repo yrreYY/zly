@@ -450,7 +450,7 @@ opacity: 1; /*结尾状态 透明度为1*/
     justify-content: center;
     align-items: center;
 }
-.benefits_img .icon{width: 1.6rem; height:1.3333rem; background: url(../images/icon_xiangxi_03.png) no-repeat; text-align: center;transition: all 0.4s ease 0s;}
+.benefits_img .icon{width: 1.6rem; height:1.3333rem; background: url(../images/icon_xiangxi_03.png) no-repeat; text-align: center;transition: all 0s ease 0s;}
 .benefits_img .icon_xt{ background-position: -1.8rem 0rem;}
 .benefits_img .icon_cz{background-position: -4.8667rem 0rem;}
 .benefits_img .icon_dm{background-position: -7.8667rem 0rem;}
