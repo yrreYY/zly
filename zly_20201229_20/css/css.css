@@ -1059,12 +1059,31 @@ element.style {
     justify-content: center;
     align-items: center;
 }
-
 .benefits_img .icon {
     width: 1.6rem;
     height: 1.3333rem;
     background: url(../images/icon_xiangxi_03.png) no-repeat;
     text-align: center;
+}
+.benefits_img .icon_xt{ background-position: -1.8rem 0rem;}
+.benefits_img .icon_cz{background-position: -4.8667rem 0rem;}
+.benefits_img .icon_dm{background-position: -7.8667rem 0rem;}
+.benefits_name.hover .benefits_img .icon_xt{ background-position: -0.0667rem 0rem;}
+.benefits_name.hover .benefits_img .icon_cz{ background-position: -3.4667rem 0rem;}
+.benefits_name.hover .benefits_img .icon_dm{ background-position: -6.4rem 0rem;}
+.benefits_name.hover a h3,
+.benefits_name.hover a .explanation{color:#1E73E7; font-weight: bold}
+.operating_btn{
+	display: block;
+    margin: 0 auto;
+	margin-top: .2667rem;
+	background: url(../images/detailed_btns.png) no-repeat;
+	width: 1.88rem;
+	color: #888888;
+	text-align: center;
+	height: .68rem;
+	font-size: .2133rem;
+	line-height: .68rem;
     transition: all 0.4s ease 0s;
 }
 
