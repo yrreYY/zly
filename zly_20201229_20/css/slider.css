@@ -283,6 +283,7 @@ header .product_list.button a,
   color: #848484;
   font-size: 0.5rem;
   line-height: 1.2rem;
+  vertical-align: top;
 }
 .cndns-right-btn p {
   color: #1580c4;
