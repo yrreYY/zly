@@ -61,6 +61,9 @@ $(window).scroll(function(){
 function topBack(){
   $('body,html').animate({scrollTop:0},300);
 }
+$('#top-back').click(function () {
+	topBack()
+})
 var oWidth=$(".tips-box").width();
 	$(".index-btn").click(function(){
 		$(".tips-box").animate({
