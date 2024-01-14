@@ -262,7 +262,7 @@ header .product_list.button a,
 .cndns-right {
   position: fixed;
   right: 0.0133rem;
-  top: 50%;
+  top: 60%;
   margin-top: -0.2rem;
   z-index: 100;
 }
@@ -322,14 +322,15 @@ header .product_list.button a,
   color: #fff;
 }
 .meau-top .cndns-right-btn span {
-  font-size: 0.16rem;
-  line-height: 0.16rem;
-  padding-top: 0.1333rem;
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+  padding-top: 0.2rem;
   display: block;
 }
 .meau-top .cndns-right-btn i {
   display: block;
   color: #999;
+  font-size: 0.3rem;
 }
 .meau-top.cndns-right-meau:hover .cndns-right-btn {
   background-color: #1580c4;
@@ -383,7 +384,7 @@ header .product_list.button a,
 }
 .cndns-right-box .box-border .sev-t p i {
   display: block;
-  font-size: 0.2rem;
+  font-size: 0.28rem;
   color: #aaa;
 }
 .cndns-right-box .box-border .sev-b {
@@ -393,7 +394,7 @@ header .product_list.button a,
 }
 .cndns-right-box .box-border .sev-b h4 {
   color: #666;
-  font-size: 0.2rem;
+  font-size: 0.28rem;
   font-weight: normal;
   padding-bottom: 0.2rem;
 }
@@ -426,14 +427,13 @@ header .product_list.button a,
   bottom: -0.4667rem;
 }
 .meau-code .cndns-right-box .box-border {
-  width: 2.4rem;
   text-align: center;
   border-top: 0.0133rem solid #ccc;
 }
 .meau-code .cndns-right-box .box-border i {
   display: block;
   color: #1580c4;
-  font-size: 0.24rem;
+  font-size: 0.3rem;
   line-height: 0.4rem;
 }
 .meau-code .cndns-right-box .box-border .arrow-right {
