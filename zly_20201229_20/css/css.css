@@ -2158,6 +2158,7 @@ element.style {
   top: 0rem;
   height: 2.2667rem;
   padding: 0.2rem;
+  width: 90%;
 }
 
 .news_list .list_style .news_contents h3 {
@@ -3144,4 +3145,57 @@ element.style {
 .news_list .list_style .news_contents li {
   height: 0.1rem;
   color: #2d2d2d;
+}
+
+.news_list .list_style .news_contents ul {
+  display: -webkit-box;
+  /* -webkit-line-clamp: 3; */
+  -webkit-box-orient: vertical; 
+  /* overflow: hidden; */
+  max-height: 0rem;
+  height: 1.3333rem;
+  padding: 0 .1333rem;
+  color: #b5b5b5;
+  background: □white;
+  transition: all 0.2s ease;
+  font-size: .2rem;
+  /* line-height: 1rem; */
+  visibility: collapse;
+}
+
+.news_list .list_style .news_contents input {
+  position: relative;
+  opacity: 0;
+  /* z-index: -1; */
+  float: right;
+  margin-top: 1.3rem;
+  margin-right: 0.1rem;
+}
+
+.news_list .list_style .news_contents .tab-label {
+  /* max-height: 1.2rem; */
+  float: right;
+  margin-top: 1.3rem;
+  margin-right: 0.1rem;
+}
+
+.news_list .list_style .news_contents input:checked+.tab-label {
+  background: #ffffff;
+}
+.news_list .list_style .news_contents input:checked+.tab-label::before {
+  max-height: 1.2rem;
+  /* transform: rotate(90deg); */
+
+  /* content: '收起'; */
+  
+}
+.news_list .list_style .news_contents input:checked+.tab-label::after {
+  /* transform: rotate(90deg); */
+  /* content: '展开'; */
+}
+
+.news_list .list_style .news_contents input:checked~.tab-content {
+  /* max-height: 10rem; */
+  padding: .1333rem;
+  visibility: visible;
 }
