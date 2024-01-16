@@ -521,7 +521,7 @@ body {
 
 .ban1Line_right .ban1Line_title {
   margin: 0 auto;
-  background: url(../images/abt_23.png) no-repeat;
+  /* background: url(../images/abt_23.png) no-repeat; */
   background-size: 100% 100%;
   width: 8rem;
   height: 2.8rem;
@@ -604,9 +604,10 @@ body {
 }
 
 .ban1Line_right .more_btn:hover {
-  background: #4865ff;
-  border: 1px solid #294bf7;
-  color: #fff;
+  box-shadow: 0rem 0rem 0.4rem rgb(66, 92, 224);
+
+  font-weight: bold;
+  transform: scale(1.06, 1.06);
 }
 
 .banner {
@@ -2134,9 +2135,8 @@ element.style {
 }
 
 .news_list .list_style .news_time {
+  flex: 0 0 auto;
   width: 1.8667rem;
-  float: left;
-  border-right: 0.0133rem solid #dddddd;
   height: 1.8667rem;
   text-align: center;
   color: #e7494c;
@@ -2153,21 +2153,20 @@ element.style {
 }
 
 .news_list .list_style .news_contents {
-  position: absolute;
-  left: 1.8667rem;
-  top: 0rem;
-  height: 2.2667rem;
-  padding: 0.2rem;
+  flex: 1 1 auto;
+  padding: 0.2rem 0.3rem 0;
   width: 90%;
+  border-left: 1px solid #ddd;
 }
 
 .news_list .list_style .news_contents h3 {
+  font-size: 0.3rem;
   margin-bottom: 0.2rem;
   color: #2d2d2d;
 }
 
 .news_list .list_style .news_contents h5 {
-  color: #b5b5b5;
+  color: #959595;
   line-height: 0.32rem;
 }
 
@@ -2178,29 +2177,11 @@ element.style {
   color: #a2a2a2;
 }
 
-.news_list .list_style .news_contents .more_link {
-  position: absolute;
-  right: 0.2667rem;
-  bottom: 0.2667rem;
-  color: #a3a3a3;
-  transform: translateY(-50%);
-  transition: all 0.3s ease 0s;
-}
-
-.news_list .list_style .news_contents .more_link i {
-  margin: 0rem 0.0667rem;
-}
-
-.news_list .list_style .news_contents .more_link i {
-  margin: 0rem 0.0667rem;
-}
-
 .news_list .contents {
   display: block;
   transition: all 0.3s ease 0s;
   width: 100%;
   padding: 0.2rem 0rem;
-  height: 2.2667rem;
   border-radius: 0.04rem;
   position: relative;
   border: 0.0133rem solid #dddddd;
@@ -2747,7 +2728,7 @@ element.style {
 /* //////////////////////////////////////////////////////////////////////// */
 
 .logo1 {
-  width: 3.6rem;
+  width: 3.4rem;
   height: 1.1rem;
   vertical-align: top;
 }
@@ -3096,7 +3077,7 @@ element.style {
 }
 
 .sf_c {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   font-size: 0.3rem;
 }
@@ -3106,7 +3087,8 @@ element.style {
 }
 
 .sf_logo {
-  width: 3rem;
+  width: 2.6rem;
+  margin-right: 0.2rem;
 }
 
 .ta_c {
@@ -3130,72 +3112,38 @@ element.style {
 
 .bge {
   display: inline-block;
-  padding: .25em .4em;
-  font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
+  padding: 0 0.24rem;
+  font-size: 0.26rem;
+  font-weight: 500;
+  line-height: 0.5rem;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25rem;
-  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
-}
-
-
-.news_list .list_style .news_contents li {
-  height: 0.1rem;
-  color: #2d2d2d;
-}
-
-.news_list .list_style .news_contents ul {
-  display: -webkit-box;
-  /* -webkit-line-clamp: 3; */
-  -webkit-box-orient: vertical; 
-  /* overflow: hidden; */
-  max-height: 0rem;
-  height: 1.3333rem;
-  padding: 0 .1333rem;
-  color: #b5b5b5;
-  background: □white;
-  transition: all 0.2s ease;
-  font-size: .2rem;
-  /* line-height: 1rem; */
-  visibility: collapse;
-}
-
-.news_list .list_style .news_contents input {
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
   position: relative;
-  opacity: 0;
-  /* z-index: -1; */
-  float: right;
-  margin-top: 1.3rem;
-  margin-right: 0.1rem;
+  bottom: 0.08rem;
 }
 
-.news_list .list_style .news_contents .tab-label {
-  /* max-height: 1.2rem; */
-  float: right;
-  margin-top: 1.3rem;
-  margin-right: 0.1rem;
+.dis_flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  border: 1px solid #dddddd;
+  padding: 0.2rem 0;
+  border-radius: 0.1rem;
+  margin-top: 0.4rem;
 }
-
-.news_list .list_style .news_contents input:checked+.tab-label {
-  background: #ffffff;
+.tab_content {
+  margin-top: 0.4rem;
+  font-size: 0.28rem;
+  line-height: 0.5rem;
+  color: #868686;
 }
-.news_list .list_style .news_contents input:checked+.tab-label::before {
-  max-height: 1.2rem;
-  /* transform: rotate(90deg); */
-
-  /* content: '收起'; */
-  
+.list_block {
+  padding: 0.6rem 0 1rem;
 }
-.news_list .list_style .news_contents input:checked+.tab-label::after {
-  /* transform: rotate(90deg); */
-  /* content: '展开'; */
-}
-
-.news_list .list_style .news_contents input:checked~.tab-content {
-  /* max-height: 10rem; */
-  padding: .1333rem;
-  visibility: visible;
+.mt02 {
+  margin-top: 0.2rem;
 }
