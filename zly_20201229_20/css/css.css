@@ -3135,15 +3135,62 @@ element.style {
   border-radius: 0.1rem;
   margin-top: 0.4rem;
 }
+
 .tab_content {
   margin-top: 0.4rem;
   font-size: 0.28rem;
   line-height: 0.5rem;
   color: #868686;
 }
+
 .list_block {
   padding: 0.6rem 0 1rem;
 }
+
 .mt02 {
   margin-top: 0.2rem;
+}
+
+
+/********关于我们*********/
+.d-f .weixin-comp {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.a-i-c {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  font-size: 0.3rem;
+}
+
+.f-c {
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+.j-c-c {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.d-f {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+@media (min-width: 992px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px
+  }
+}
+
+.bannerN h3 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  bottom: 1.3rem;
 }
