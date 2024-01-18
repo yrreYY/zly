@@ -590,10 +590,10 @@ body {
   display: inline-block;
   font-size: 0.36rem;
   line-height: 0.84rem;
-  background: #fff;
+  background: #568be3;
   text-align: center;
   border: 0.1px solid #4865ff;
-  color: #4865ff;
+  color: #fff;
   text-align: center;
   border-radius: 0.06rem;
   margin-bottom: 0.4rem;
@@ -2924,6 +2924,11 @@ element.style {
   .title_b {
     width: 6.4rem;
   }
+
+  .cndns-right {
+    display: none;
+  }
+
 }
 
 /******************/
@@ -3235,6 +3240,14 @@ element.style {
   color: white
 }
 
-.icon-windows1:before {
-  content: "\e68b";
+
+.title_b .t_b_img {
+  color: #fff;
+}
+
+.button-download-icon {
+  width: 50px;
+  height: 100%;
+  color: white;
+  font-size: 25px
 }
