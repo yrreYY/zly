@@ -835,6 +835,8 @@ element.style {
 .navList {
   display: table;
   margin: 0 auto;
+  float: inline-end;
+  margin: 0.2rem 0.5rem;
 }
 
 .navLi {
@@ -845,8 +847,8 @@ element.style {
 
 .navLi h3 a {
   display: block;
-  padding: 0.32rem 0.1333rem;
-  font-size: 0.26rem;
+  padding: 0.18rem 0rem;
+  font-size: 0.3rem;
   color: #ffffff;
 }
 
@@ -1653,6 +1655,7 @@ element.style {
   opacity: 0.3;
   bottom: 0.6667rem;
 }
+
 .imgFull img {
   display: none;
 }
@@ -1786,8 +1789,7 @@ element.style {
 }
 
 /****************产品详细介绍通用样式属性**************/
-.product_details .bannerN {
-}
+.product_details .bannerN {}
 
 .product_details .banH2 {
   bottom: 0.5333rem;
@@ -1845,6 +1847,7 @@ element.style {
 
   .navLi {
     height: 0.9867rem;
+
   }
 
   .navLi h3 a {
@@ -1865,8 +1868,7 @@ element.style {
   }
 }
 
-@media (max-width: 18.6667rem) {
-}
+@media (max-width: 18.6667rem) {}
 
 @media (max-width: 16rem) {
   .benefits_list {
@@ -2905,6 +2907,11 @@ element.style {
     font-size: 38.0025px !important;
   }
 
+  .navList {
+    margin: 0 auto;
+    float: none;
+  }
+
   .b_l_img {
     display: none;
   }
@@ -3185,13 +3192,49 @@ element.style {
   width: 100%;
   line-height: 0.5rem;
 }
+
 /*****首页图标****/
-.spf_cf .point .p-img{
+.spf_cf .point .p-img {
   width: 1.3rem;
   height: 1.3rem;
   margin-bottom: 0.2rem;
 }
+
 .js_p {
   padding: 0 15%;
   font-size: 0.3rem;
+}
+
+/******首页*****/
+.button-download {
+  width: 3rem;
+  height: .8rem;
+  background: #366bb3;
+  border-radius: .0667rem;
+  border: .0133rem solid #3f60a1;
+  cursor: pointer;
+  margin: .1067rem;
+}
+
+.flex-row {
+  -ms-flex-direction: row !important;
+  flex-direction: row !important
+}
+
+.button-download-icon {
+  width: .6667rem;
+  height: 100%;
+  color: white;
+  font-size: .3333rem
+}
+
+
+.button-download-value {
+  font-weight: bold;
+  font-size: .35rem;
+  color: white
+}
+
+.icon-windows1:before {
+  content: "\e68b";
 }
