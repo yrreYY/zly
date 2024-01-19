@@ -3244,10 +3244,7 @@ element.style {
 .title_b .t_b_img {
   color: #fff;
 }
-
-.button-download-icon {
-  width: 50px;
-  height: 100%;
-  color: white;
-  font-size: 25px
+.title_b .fa {
+  font-size: .4rem;
+  margin-right: 0.1rem;
 }
