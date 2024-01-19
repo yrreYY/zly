@@ -470,7 +470,7 @@ body {
 .logo {
   position: absolute;
   left: 0.4rem;
-  top: 0rem;
+  top: 0.1rem;
   z-index: 2;
 }
 
@@ -483,6 +483,7 @@ body {
   border: none;
   background: rgba(0, 0, 0, 0.6);
   margin-top: 0;
+  height: 2rem;
 }
 
 .headerbg.active .header_phone {
@@ -2861,6 +2862,11 @@ element.style {
     font-size: 45.9975px !important;
   }
 
+  .navBox {
+    top: 0;
+    background: transparent;
+  }
+
   .b_l_img {
     width: 6rem;
     height: 6rem;
@@ -2881,6 +2887,19 @@ element.style {
     width: 100%;
     right: 0;
   }
+
+  .navBox {
+    top: 0;
+    background: transparent;
+  }
+}
+
+@media screen and (max-width: 640px) and (min-width: 570px) {
+  .navBox {
+    top: 0;
+    background: transparent;
+  }
+    
 }
 
 @media screen and (max-width: 640px) and (min-width: 500px) {
@@ -2900,6 +2919,7 @@ element.style {
   .title_b {
     width: 6.4rem;
   }
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -3244,6 +3264,7 @@ element.style {
 .title_b .t_b_img {
   color: #fff;
 }
+
 .title_b .fa {
   font-size: .4rem;
   margin-right: 0.1rem;
