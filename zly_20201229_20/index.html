@@ -1,306 +1,379 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport"
-    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
-  <meta name="renderer" content="webkit|ie-comp|ie-stand" />
-  <meta name="description" content="" />
-  <title>网站公司网站首页-中心运营商首选</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="css/css.css" rel="stylesheet" type="text/css" />
-  <link href="css/Animation.css" rel="stylesheet" type="text/css" />
-  <link href="css/slider.css" rel="stylesheet" type="text/css" />
-  <link href="css/all.min.css" rel="stylesheet" />
-  <!-- <link href="fonts/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" /> -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-  <!--自适应js-->
-  <script src="js/flexible.js" type="text/javascript"></script>
-  <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-  <script src="js/common.js" type="text/javascript"></script>
-  <script src="js/slider.js" type="text/javascript"></script>
-  <script src="js/html5.js" type="text/javascript"></script>
-  <script src="js/jquery.js" type="text/javascript"></script>
-  <script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
-  <script src="js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="js/wow.min.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    var wow = new WOW({
-      boxClass: "wow",
-      animateClass: "animated",
-      offset: 0,
-      mobile: false,
-      live: true,
-    });
-    wow.init();
-    /***放大镜***/
-  </script>
-  <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"
+    />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+    <meta name="description" content="" />
+    <title>简易聊-客服聊天助手</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/css.css" rel="stylesheet" type="text/css" />
+    <link href="./css/Animation.css" rel="stylesheet" type="text/css" />
+    <link href="./css/slider.css" rel="stylesheet" type="text/css" />
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <link href="./css/dialog.css" rel="stylesheet" /><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
-<body>
-  <header class="navbar-fixed-top headerbg">
-    <div class="container-fluid">
-      <div class="logo">
-        <a href="index.html"><img src="images/logo-9.png" alt="" class="logo1" /></a>
-      </div>
-      <div class="navBox">
-        <ul class="navList list-unstyled">
-          <li class="navLi on">
-            <h3>
-              <a href="index.html"><span>首页</span></a>
-            </h3>
-          </li>
-          <li class="navLi">
-            <h3>
-              <a href="Tutorial.html"><span>教程中心</span></a>
-            </h3>
-          </li>
-          <li class="navLi">
-            <h3>
-              <a href="Dynamic.html"><span>更新日志</span></a>
-            </h3>
-          </li>
-          <li class="navLi">
-            <h3>
-              <a href="Case.html"><span>产品案例</span></a>
-            </h3>
-          </li>
-          <li class="navLi">
-            <h3>
-              <a href="Company.html"><span>关于我们</span></a>
-            </h3>
-          </li>
-        </ul>
-      </div>
-      <!--
-      <div class="header_phone">
-        <img src="images/icon_phone.png" class="h_phone fl" />
-        <div class="phone fl">
-          <h4>服务咨询热线：</h4>
-          <h2>0536-11111111</h2>
+    <!--自适应js-->
+    <script src="./js/flexible.js" type="text/javascript"></script>
+    <script src="./js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="./js/common.js" type="text/javascript"></script>
+    <script src="./js/slider.js" type="text/javascript"></script>
+    <script src="./js/html5.js" type="text/javascript"></script>
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+    <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./js/wow.min.js" type="text/javascript"></script>
+    <script src="./js/dialog.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var wow = new WOW({
+        boxClass: "wow",
+        animateClass: "animated",
+        offset: 0,
+        mobile: false,
+        live: true,
+      });
+      wow.init();
+      /***放大镜***/
+    </script>
+    <!--[if lt IE 9]>
+      <script src="./js/html5shiv.min.js"></script>
+      <script src="./js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <header class="navbar-fixed-top headerbg">
+      <div class="container-fluid">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./images/logo-9.png" alt="" class="logo1"
+          /></a>
         </div>
-      </div>
-      -->
-    </div>
-  </header>
-  <!--广告-->
-  <div class="banner">
-    <div class="container relative clearfix">
-      <div class="banner_list_style clearfix relative">
-        <div class="bd">
-          <ul>
-            <li class="banner_li">
-              <div class="ban1Line_style wow fadeInLeft">
-                <img src="images/home-banner-1.png" class="b_l_img" />
-              </div>
-              <div class="ban1Line_right wow fadeInRight">
-                <div class="ban1Line_title">
-                  <h1>简易聊</h1>
-                  <h2>客服聊天助手</h2>
-                  <h3 class="clients"><b class="color2"></b></h3>
-                </div>
-                <div class="title_name">
-                  支持多端数据同步，Windows、Mac、Android、iOS
-                </div>
-                <div class="title_b">
-                  <a href="#" class="more_btn">
-                    <i class=" fa fa-windows"></i>
-                    Windows</a>
-                  <a href="#" class="more_btn">
-                    <i class=" fa fa-android"></i>
-                    Android</a>
-                  <a href="#" class="more_btn">
-                    <i class=" fa fa-apple"></i>
-                    iOS</a>
-                  <a href="#" class="more_btn">
-                    <i class="fa fa-desktop"></i>
-                    Mac</a>
-                </div>
-              </div>
+        <div class="navBox">
+          <ul class="navList list-unstyled">
+            <li class="navLi on">
+              <h3>
+                <a href="./index.html"><span>首页</span></a>
+              </h3>
+            </li>
+            <li class="navLi">
+              <h3>
+                <a
+                  href="https://s0mg694qtml.feishu.cn/wiki/space/7326030543013838850?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home"
+                  ><span>教程中心</span></a
+                >
+              </h3>
+            </li>
+            <li class="navLi">
+              <h3>
+                <a href="./Dynamic.html"><span>更新日志</span></a>
+              </h3>
+            </li>
+            <li class="navLi">
+              <h3>
+                <a href="./Company.html"><span>联系我们</span></a>
+              </h3>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </header>
+    <!--广告-->
+    <div class="banner">
+      <div class="container relative clearfix">
+        <div class="banner_list_style clearfix relative">
+          <div class="bd">
+            <ul>
+              <li class="banner_li">
+                <div class="ban1Line_style wow fadeInLeft">
+                  <img src="./images/index.gif" class="b_l_img" />
+                </div>
+                <div class="ban1Line_right wow fadeInRight">
+                  <div class="ban1Line_title">
+                    <h1>简易聊</h1>
+                    <h2>客服聊天助手</h2>
+                    <div class="br_long">支持多端数据同步</div>
+                    <div class="br_short">支持多端数据同步</div>
+                    <img src="./images/abt_23.png" class="bg_k" alt="" />
+                  </div>
+                  <div class="title_b">
+                    <a
+                      id="dl_w"
+                      class="more_btn"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="正在开发中，敬请期待"
+                    >
+                      <i class="fa fa-windows"></i>
+                      Windows下载</a
+                    >
+                    <a
+                      id="dl_a"
+                      class="more_btn"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="正在开发中，敬请期待"
+                    >
+                      <i class="fa fa-android"></i>
+                      Android下载</a
+                    >
+                    <a id="dl_i" class="more_btn">
+                      <i class="fa fa-apple"></i>
+                      iOS下载</a
+                    >
+                    <a id="dl_m" class="more_btn">
+                      <i class="fa fa-desktop"></i>
+                      Mac下载</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-    <div class="sky">
-      <div class="clouds_one"></div>
-      <div class="clouds_two"></div>
-      <div class="clouds_three"></div>
+      <div class="sky">
+        <div class="clouds_one"></div>
+        <div class="clouds_two"></div>
+        <div class="clouds_three"></div>
+      </div>
     </div>
-  </div>
-  <div class="section spf stylebg1">
-    <div class="spf_c">
-      <div class="spf_cf">
-        <h2>一分钟了解简易聊</h2>
-        <p class="spf_desc">
-          简易聊是一款专为客服人员量身打造的软件，跨平台快捷回复工具，可移动的话术库，电商网销网店客服人员必备神器！
-        </p>
-        <p class="spf_desc">
-          它可让客服人员减少重复打字，不用再复制黏贴，把常用话术添加在软件里，一键即可发送！
-        </p>
-        <p class="spf_desc">
-          它会自动吸附在聊天软件旁边，鼠标点击一下，就能把话术快速的发送到指定的聊天对象。
-        </p>
-        <p class="spf_desc">
-          话术云存储，随时随地，无论在公司还是在家里，都能轻松回复客户，多人共享话术，实时同步。
-        </p>
-        <div class="row">
-          <div class="col-md-3 col-sm-4 col-xs-6">
-            <div class="point">
-              <img src="images/index-quality.png" class="p-img" />
-              <h3>品质保障</h3>
-              <p>
-                长期运营，众多客户第一选择，拥有国家认可软件著作权和商标证书
-              </p>
+    <div class="section spf stylebg1">
+      <div class="spf_c">
+        <div class="spf_cf">
+          <h2>一分钟了解简易聊</h2>
+          <p class="spf_desc">
+            简易聊是一款专为客服人员量身打造的软件，跨平台快捷回复工具，可移动的话术库，电商网销网店客服人员必备神器！
+            <br />
+            它可让客服人员少打字回复快，不用再复制黏贴，把常用话术添加在软件里，一键即可发送！
+            <br />
+            它会自动吸附在聊天软件旁边，鼠标点击一下，就能把话术快速的发送到指定的聊天对象。
+            <br />
+            话术云存储，随时随地，无论在公司还是在家里，都能轻松回复客户，多人共享话术，实时同步。
+          </p>
+          <div class="row">
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="point">
+                <img src="./images/index-quality.png" class="p-img" />
+                <h3>品质保障</h3>
+                <p>
+                  长期运营，众多客户第一选择，拥有国家认可软件著作权和商标证书
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-            <div class="point">
-              <img src="images/index-support.png" class="p-img" />
-              <h3>聊天电商全支持</h3>
-              <p>支持QQ，微信，千牛，抖店，拼多多，京东，小红书，快手等众多电商客服平台</p>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="point">
+                <img src="./images/index-support.png" class="p-img" />
+                <h3>聊天电商全支持</h3>
+                <p>
+                  支持QQ，微信，千牛，抖店，拼多多，京东，小红书，快手等众多电商客服平台
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-            <div class="point">
-              <img src="images/index-price.png" class="p-img" />
-              <h3>价格实惠</h3>
-              <p>
-                单账号价格低至 50 元/年
-              </p>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="point">
+                <img src="./images/index-price.png" class="p-img" />
+                <h3>价格实惠</h3>
+                <p>单账号价格低至 50 元/年</p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-            <div class="point">
-              <img src="images/index-synchronize.png" class="p-img" />
-              <h3>电脑手机同步</h3>
-              <p>解决用手机与客户打字聊天不方便的问题，电脑版手机版话术实时同步</p>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="point">
+                <img src="./images/index-synchronize.png" class="p-img" />
+                <h3>电脑手机同步</h3>
+                <p>
+                  解决使用手机与客户打字聊天不方便的问题，电脑版手机版话术实时同步
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-            <div class="point">
-              <img src="images/index-search.png" class="p-img" />
-              <h3>模糊检索</h3>
-              <p>支持关键字检索模式，快速匹配话术</p>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="point">
+                <img src="./images/index-search.png" class="p-img" />
+                <h3>模糊检索</h3>
+                <p>支持关键字检索模式，快速匹配话术</p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-            <div class="point">
-              <img src="images/index-ioport.png" class="p-img" />
-              <h3>导入导出</h3>
-              <p>支持话术的导入，导出，我的话术我做主，不做任何限制</p>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="point">
+                <img src="./images/index-ioport.png" class="p-img" />
+                <h3>导入导出</h3>
+                <p>支持话术的导入，导出，我的话术我做主，不做任何限制</p>
+              </div>
             </div>
-          </div>
 
-          <div class="col-md-3 col-sm-4 col-xs-6">
-            <div class="point">
-              <img src="images/index-conversation.png" class="p-img" />
-              <h3>高灵活性</h3>
-              <p>适配多个平台，没有你想要的聊天软件，请联系客服为您适配</p>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="point">
+                <img src="./images/index-conversation.png" class="p-img" />
+                <h3>高灵活性</h3>
+                <p>适配多个平台，没有您想要的聊天软件，请联系客服为您适配</p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-xs-6">
-            <div class="point">
-              <img src="images/index-intelligent.png" class="p-img" />
-              <h3>智能吸附</h3>
-              <p>可任意选择需要吸附的应用程序，适配更多客服场景</p>
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="point">
+                <img src="./images/index-intelligent.png" class="p-img" />
+                <h3>智能吸附</h3>
+                <p>可任意选择需要吸附的聊天软件，适配更多客服场景</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="section spf bg-gray">
-    <div class="spf_c">
-      <div class="spf_cf">
-        <h2>Windows版本操作演示</h2>
-        <div class="row">
-          <video class="video_i" controls>
-            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-          </video>
+    <div class="section spf bg-gray">
+      <div class="spf_c">
+        <div class="spf_cf">
+          <h2>Windows版本操作演示</h2>
+          <div class="row">
+            <video class="video_i" controls>
+              <source
+                src="https://www.w3schools.com/html/mov_bbb.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!--支持-->
-  <div class="section spf stylebg3">
-    <div class="spf_c">
-      <div class="spf_cf">
-        <h2>支持众多客服工具</h2>
-        <p class="spf_desc">
-          目前已经支持微信、QQ、千牛、阿里旺旺、抖音电脑版、抖店、京麦咚咚、拼多多商家工作台、小红书客服工作台、快手小店等众多聊天工具......
-        </p>
-        <div class="row logos_list">
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/qq.png"
-            title="简易聊客服聊天助手支持QQ客服，知识库快捷回复提高QQ客服工作效率" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/weixin.png"
-            title="简易聊客服聊天助手支持微信，适合微信客服的使用" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/dingding.png"
-            title="钉钉也可以使用简易聊客服聊天助手来提高客服工作效率" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/ali-supplier.png"
-            title="简易聊客服聊天助手完美支持阿里卖家客服" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/qidian.png"
-            title="简易聊客服聊天助手完美支持企点客服" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/crmqq.png"
-            title="简易聊客服聊天助手完美支持营销QQ" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/baidu.png"
-            title="简易聊客服聊天助手完美支持旺旺百度商桥客服" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/cc.png"
-            title="简易聊客服聊天助手完美支持CC客服" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/chaoxin.png"
-            title="简易聊客服聊天助手完美支持潮信客服" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/jd.png"
-            title="简易聊客服聊天助手完美支持京东客服" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/skype.png"
-            title="简易聊客服聊天助手完美支持skype" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/yy.png"
-            title="简易聊客服聊天助手完美支持YY" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/pinduoduo.png"
-            title="简易聊客服聊天助手完美支持拼多多" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/zhanghi.png"
-            title="简易聊客服聊天助手完美支持掌嗨" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/53kf.png"
-            title="简易聊客服聊天助手支持53快服" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/feishu.png"
-            title="简易聊客服聊天助手支持飞书" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/doudian.png"
-            title="简易聊客服聊天助手支持抖店" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/momo.png"
-            title="简易聊客服聊天助手支持陌陌" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/baidu-hi.png"
-            title="简易聊客服聊天助手支持如流（百度HI）" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/tencent-edu.png"
-            title="简易聊客服聊天助手支持腾讯课堂" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/telegram.png"
-            title="简易聊客服聊天助手支持telegram" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/xiaohongshu.png"
-            title="简易聊客服聊天助手支持小红书" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/kuaishou.png"
-            title="简易聊客服聊天助手支持快手小店" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/whatsapp.png"
-            title="简易聊客服聊天助手支持whatsapp" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/jdm.png" title="简易聊客服聊天助手支持京麦" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/meiqia.png"
-            title="简易聊客服聊天助手支持美洽" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/kuaishang.png"
-            title="简易聊客服聊天助手支持快商通" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/shangwutong.png"
-            title="简易聊客服聊天助手支持商务通" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/boss.png"
-            title="简易聊客服聊天助手支持BOSS直聘" />
-          <img src="https://qikebao-web.oss-cn-beijing.aliyuncs.com/bangkefu/images/im/haixiang.png"
-            title="跨境电商客服推荐用简易聊" />
+    <!--支持-->
+    <div class="section spf stylebg3">
+      <div class="spf_c">
+        <div class="spf_cf">
+          <h2>支持众多客服工具</h2>
+          <p class="spf_desc">
+            目前已经支持微信、QQ、千牛、阿里旺旺、抖音电脑版、抖店、京麦咚咚、拼多多商家工作台、小红书客服工作台、快手小店等众多聊天工具......
+          </p>
+          <div class="row logos_list">
+            <img
+              src="./images/logos/qq.png"
+              title="简易聊客服聊天助手支持QQ客服，知识库快捷回复提高QQ客服工作效率"
+            />
+            <img
+              src="./images/logos/weixin.png"
+              title="简易聊客服聊天助手支持微信，适合微信客服的使用"
+            />
+            <img
+              src="./images/logos/dingding.png"
+              title="钉钉也可以使用简易聊客服聊天助手来提高客服工作效率"
+            />
+            <img
+              src="./images/logos/ali-supplier.png"
+              title="简易聊客服聊天助手完美支持阿里卖家客服"
+            />
+            <img
+              src="./images/logos/qidian.png"
+              title="简易聊客服聊天助手完美支持企点客服"
+            />
+            <img
+              src="./images/logos/crmqq.png"
+              title="简易聊客服聊天助手完美支持营销QQ"
+            />
+            <img
+              src="./images/logos/baidu.png"
+              title="简易聊客服聊天助手完美支持旺旺百度商桥客服"
+            />
+            <img
+              src="./images/logos/cc.png"
+              title="简易聊客服聊天助手完美支持CC客服"
+            />
+            <img
+              src="./images/logos/chaoxin.png"
+              title="简易聊客服聊天助手完美支持潮信客服"
+            />
+            <img
+              src="./images/logos/jd.png"
+              title="简易聊客服聊天助手完美支持京东客服"
+            />
+            <img
+              src="./images/logos/skype.png"
+              title="简易聊客服聊天助手完美支持skype"
+            />
+            <img
+              src="./images/logos/yy.png"
+              title="简易聊客服聊天助手完美支持YY"
+            />
+            <img
+              src="./images/logos/pinduoduo.png"
+              title="简易聊客服聊天助手完美支持拼多多"
+            />
+            <img
+              src="./images/logos/zhanghi.png"
+              title="简易聊客服聊天助手完美支持掌嗨"
+            />
+            <img
+              src="./images/logos/53kf.png"
+              title="简易聊客服聊天助手支持53快服"
+            />
+            <img
+              src="./images/logos/feishu.png"
+              title="简易聊客服聊天助手支持飞书"
+            />
+            <img
+              src="./images/logos/doudian.png"
+              title="简易聊客服聊天助手支持抖店"
+            />
+            <img
+              src="./images/logos/momo.png"
+              title="简易聊客服聊天助手支持陌陌"
+            />
+            <img
+              src="./images/logos/baidu-hi.png"
+              title="简易聊客服聊天助手支持如流（百度HI）"
+            />
+            <img
+              src="./images/logos/tencent-edu.png"
+              title="简易聊客服聊天助手支持腾讯课堂"
+            />
+            <img
+              src="./images/logos/telegram.png"
+              title="简易聊客服聊天助手支持telegram"
+            />
+            <img
+              src="./images/logos/xiaohongshu.png"
+              title="简易聊客服聊天助手支持小红书"
+            />
+            <img
+              src="./images/logos/kuaishou.png"
+              title="简易聊客服聊天助手支持快手小店"
+            />
+            <img
+              src="./images/logos/whatsapp.png"
+              title="简易聊客服聊天助手支持whatsapp"
+            />
+            <img
+              src="./images/logos/jdm.png"
+              title="简易聊客服聊天助手支持京麦"
+            />
+            <img
+              src="./images/logos/meiqia.png"
+              title="简易聊客服聊天助手支持美洽"
+            />
+            <img
+              src="./images/logos/kuaishang.png"
+              title="简易聊客服聊天助手支持快商通"
+            />
+            <img
+              src="./images/logos/shangwutong.png"
+              title="简易聊客服聊天助手支持商务通"
+            />
+            <img
+              src="./images/logos/boss.png"
+              title="简易聊客服聊天助手支持BOSS直聘"
+            />
+            <img
+              src="./images/logos/haixiang.png"
+              title="跨境电商客服推荐用简易聊"
+            />
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    <!--
   <div class="section spf bg-gray stylebg3">
     <div class="spf_c">
       <a name="product"></a>
@@ -308,120 +381,130 @@
         <h2>一分钟了解简易聊</h2>
         <p class="spf_desc">
           简易聊是一款专为客服人员量身打造的软件，跨平台快捷回复工具，可移动的话术库，电商网销网店客服人员必备神器！
-        </p>
-        <p class="spf_desc">
+          <br>
           它可让客服人员减少重复打字，不用再复制黏贴，把常用话术添加在软件里，一键即可发送！
-        </p>
-        <p class="spf_desc">
+          <br>
           它会自动吸附在聊天软件旁边，鼠标点击一下，就能把话术快速的发送到指定的聊天对象。
-        </p>
-        <p class="spf_desc">
+          <br>
           话术云存储，随时随地，无论在公司还是在家里，都能轻松回复客户，多人共享话术，实时同步。
         </p>
         <div class="row">
           <div class="col-md-3 col-xs-6">
-            <img src="images/image_bor.png" class="image-border" title="简易聊客服聊天助手APP登录界面" />
+            <img src="./images/image_bor.png" class="image-border" title="简易聊客服聊天助手APP登录界面" />
           </div>
           <div class="col-md-3 col-xs-6">
-            <img src="images/image_bor.png" class="image-border" title="简易聊客服聊天助手APP主界面" />
+            <img src="./images/image_bor.png" class="image-border" title="简易聊客服聊天助手APP主界面" />
           </div>
           <div class="col-md-3 col-xs-6">
-            <img src="images/image_bor.png" class="image-border" title="简易聊客服聊天助手APP发送知识库界面" />
+            <img src="./images/image_bor.png" class="image-border" title="简易聊客服聊天助手APP发送知识库界面" />
           </div>
           <div class="col-md-3 col-xs-6">
-            <img src="images/image_bor.png" class="image-border" title="简易聊客服聊天助手APP关于界面" />
+            <img src="./images/image_bor.png" class="image-border" title="简易聊客服聊天助手APP关于界面" />
           </div>
         </div>
       </div>
     </div>
   </div>
   -->
-  <!--底部-->
-  <div class="section-footer">
-    <div class="sf_c">
-      <div class="sf_cf">
-        <div class="row mb003">
-          <div class="col-md-6 col-sm-6 pl1">
-            <a name="aboutUs"></a>
-            <img src="images/logo-9.png" class="sf_logo" title="" />
-            客服聊天助手
-            <p class="mt02">湛江市聚趣科技有限公司</p>
-            <p>微信：请用手机微信扫右侧二维码</p>
-            <p>邮箱：1276177103@qq.com</p>
-            <p>工作时间：09:00-02:00</p>
+    <!--底部-->
+    <div class="section-footer">
+      <div class="sf_c">
+        <div class="sf_cf">
+          <div class="row mb003">
+            <div class="col-md-6 col-sm-6 pl1">
+              <a name="aboutUs"></a>
+              <img src="./images/logo-9.png" class="sf_logo" title="" />
+              客服聊天助手
+              <p class="mt02">湛江市聚趣科技有限公司</p>
+              <p>微信：请用手机微信扫右侧二维码</p>
+              <p>邮箱：1276177103@qq.com</p>
+              <p>工作时间：09:00-02:00</p>
+            </div>
+            <div class="foot_img_b col-md-6 col-sm-6 hidden-xs">
+              <img
+                class="foot_img"
+                src="./images/weixing-ma.jpg"
+                title="扫码加客服咨询"
+              />
+              <p class="text-center padding-top-10">扫码加客服咨询</p>
+            </div>
           </div>
-          <div class="foot_img_b col-md-6 col-sm-6 hidden-xs">
-            <img class="foot_img" src="images/weixing-ma.jpg" title="扫码加客服咨询" />
-            <p class="text-center padding-top-10">扫码加客服咨询</p>
+          <div class="row">
+            <p class="col-md-12 col-sm-12 text-center mb003">
+              本软件只是客服聊天辅助工具，研发初衷是为了让客服工作更轻松、更高效。切勿用于非法用途！
+            </p>
+            <div class="col-md-12 col-sm-12 ta_c mb003">
+              Copyright © 2009 - 2024
+              <a title="" href="www.jianyiliao99.com">简易聊</a> All rights
+              reserved.
+              <a target="_blank" href="https://beian.miit.gov.cn">
+                粤ICP备2023146692号-1
+              </a>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <p class="col-md-12 col-sm-12 text-center mb003">
-            本软件只是客服聊天辅助工具，研发初衷是为了让客服工作更轻松、更高效。切勿用于非法用途！
+      </div>
+    </div>
+    <div class="cndns-right">
+      <div class="cndns-right-meau meau-code">
+        <a href="javascript:" class="cndns-right-btn">
+          <span class="demo-icon  fa fa-qq"></span>
+          <p>
+            关注<br />
+            QQ
           </p>
-          <div class="col-md-12 col-sm-12 ta_c mb003">
-            Copyright © 2009 - 2024
-            <a title="" href="www.jianyiliao99.com">简易聊</a> All rights reserved.
-            <a target="_blank" href="https://beian.miit.gov.cn"> 粤ICP备2023146692号-1 </a>
+        </a>
+        <div class="cndns-right-box">
+          <div class="box-border">
+            <div class="sev-t">
+              <img src="./images/weixing-ma.jpg" class="qr_img" />
+              <i>添加官方QQ</i>
+              <div class="clear"></div>
+            </div>
+            <span class="arrow-right"></span>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="cndns-right">
-    <div class="cndns-right-meau meau-code">
-      <a href="javascript:" class="cndns-right-btn">
-        <span class="demo-icon fa fa-qq"></span>
-        <p>
-          关注<br />
-          QQ
-        </p>
-      </a>
-      <div class="cndns-right-box">
-        <div class="box-border">
-          <div class="sev-t">
-            <img src="images/weixing-ma.jpg" />
-            <i>关注官方QQ</i>
-            <div class="clear"></div>
+      <div class="cndns-right-meau meau-code">
+        <a href="javascript:" class="cndns-right-btn">
+          <span class="demo-icon">&#xe903;</span>
+          <p>
+            关注<br />
+            微信
+          </p>
+        </a>
+        <div class="cndns-right-box">
+          <div class="box-border">
+            <div class="sev-t">
+              <img src="./images/weixing-ma.jpg" class="qr_img" />
+              <i>添加官方微信</i>
+            </div>
+            <span class="arrow-right"></span>
           </div>
-          <span class="arrow-right"></span>
         </div>
       </div>
-    </div>
-    <div class="cndns-right-meau meau-code">
-      <a href="javascript:" class="cndns-right-btn">
-        <span class="demo-icon">&#xe903;</span>
-        <p>
-          关注<br />
-          微信
-        </p>
-      </a>
-      <div class="cndns-right-box">
-        <div class="box-border">
-          <div class="sev-t">
-            <img src="images/weixing-ma.jpg" />
-            <i>关注官方微信</i>
-          </div>
-          <span class="arrow-right"></span>
-        </div>
+      <div class="cndns-right-meau meau-top" id="top-back">
+        <a href="javascript:" class="cndns-right-btn" onclick="topBack()">
+          <span class="demo-icon">&#xe904;</span>
+          <i>顶部</i>
+        </a>
       </div>
     </div>
-    <div class="cndns-right-meau meau-top" id="top-back">
-      <a href="javascript:" class="cndns-right-btn" onclick="topBack()">
-        <span class="demo-icon">&#xe904;</span>
-        <i>顶部</i>
-      </a>
-    </div>
-  </div>
-  <style>
-    .copyrights {
-      text-indent: -9999px;
-      height: 0;
-      line-height: 0;
-      font-size: 0;
-      overflow: hidden;
-    }
-  </style>
-</body>
-
+  </body>
+  <script>
+    $(document).on("click", ".more_btn", function (e) {
+      if (e.target.id == "dl_w" || e.target.id == "dl_a") {
+        $(document).dialog({
+          type: "toast",
+          content: '<span class="info-text">正在开发中，敬请期待</span>',
+          autoClose: 1500,
+        });
+      } else {
+        console.log("dowmload");
+      }
+    });
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 </html>

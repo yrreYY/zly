@@ -1,201 +1,204 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"
+    />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+    <meta name="description" content="" />
+    <title>公司介绍</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/css.css" rel="stylesheet" type="text/css" />
+    <link href="./css/Animation.css" rel="stylesheet" type="text/css" />
+    <link href="./css/slider.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!--自适应js-->
+    <script src="./js/flexible.js" type="text/javascript"></script>
+    <script src="./js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="./js/common.js" type="text/javascript"></script>
+    <script src="./js/slider.js" type="text/javascript"></script>
+    <script src="./js/html5.js" type="text/javascript"></script>
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+    <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./js/wow.min.js" type="text/javascript"></script>
+    <script
+      type="text/javascript"
+      src="./js/jquery.mobile.custom.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script>
+      var wow = new WOW({
+        boxClass: "wow",
+        animateClass: "animated",
+        offset: 0,
+        mobile: false,
+        live: true,
+      });
+      wow.init();
+    </script>
+    <!--[if lt IE 9]>
+      <script src="./js/html5shiv.min.js"></script>
+      <script src="./js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport"
-		content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
-	<meta name="renderer" content="webkit|ie-comp|ie-stand">
-	<meta name="description" content="" />
-	<title>公司介绍</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="css/css.css" rel="stylesheet" type="text/css">
-	<link href="css/Animation.css" rel="stylesheet" type="text/css">
-	<link href="css/slider.css" rel="stylesheet" type="text/css">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-	<!--自适应js-->
-	<script src="js/flexible.js" type="text/javascript"></script>
-	<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-	<script src="js/common.js" type="text/javascript"></script>
-	<script src="js/slider.js" type="text/javascript"></script>
-	<script src="js/html5.js" type="text/javascript"></script>
-	<script src="js/jquery.js" type="text/javascript"></script>
-	<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="js/wow.min.js" type="text/javascript"></script>
-	<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<script>
-		var wow = new WOW({
-			boxClass: 'wow',
-			animateClass: 'animated',
-			offset: 0,
-			mobile: false,
-			live: true
-		});
-		wow.init();
-	</script>
-	<!--[if lt IE 9]>
-	  <script src="js/html5shiv.min.js"></script>
-	  <script src="js/respond.min.js"></script>
-	<![endif]-->
-</head>
+  <body>
+    <header class="navbar-fixed-top headerbg">
+      <div class="container-fluid">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./images/logo-9.png" alt="" class="logo1"
+          /></a>
+        </div>
+        <div class="navBox">
+          <ul class="navList list-unstyled">
+            <li class="navLi">
+              <h3>
+                <a href="./index.html"><span>首页</span></a>
+              </h3>
+            </li>
+            <li class="navLi">
+              <h3>
+                <a
+                  href="https://s0mg694qtml.feishu.cn/wiki/space/7326030543013838850?ccm_open_type=lark_wiki_spaceLink&open_tab_from=wiki_home"
+                  ><span>教程中心</span></a
+                >
+              </h3>
+            </li>
+            <li class="navLi">
+              <h3>
+                <a href="./Dynamic.html"><span>更新日志</span></a>
+              </h3>
+            </li>
+            <li class="navLi on">
+              <h3>
+                <a href="./Company.html"><span>联系我们</span></a>
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="bannerN animated">
+      <div class="imgFull">
+        <img src="./images/ab_bg_01.png" class="img-responsive" />
+      </div>
+      <h2 class="banH2 wow fadeInUp">联系我们</h2>
+      <h3 class="wow fadeInUp">
+        湛江市聚趣科技有限公司是一家专注于软件开发的企业，"简易聊客服聊天助手"为其旗下产品。
+        公司秉承”用户至上、真诚服务“的经营理念，致力于为用户提供定制化的软件解决方案、更优质的产品和服务！
+      </h3>
+      <!-- <div class="sky">
+        <div class="clouds_one"></div>
+        <div class="clouds_two"></div>
+        <div class="clouds_three"></div>
+      </div> -->
+    </div>
+    <!--介绍内容-->
+    <div class="d-f f-c a-i-c j-c-c container">
+      <br />
+      <br />
+      <br />
 
-<body>
-	<header class="navbar-fixed-top headerbg">
-		<div class="container-fluid">
-			<div class="logo">
-				<a href="index.html"><img src="images/logo-9.png" alt="" class="logo1"></a>
-			</div>
-			<div class="navBox">
-				<ul class="navList list-unstyled">
-					<li class="navLi">
-						<h3>
-							<a href="index.html"><span>首页</span></a>
-						</h3>
-					</li>
-					<li class="navLi">
-						<h3>
-							<a href="Tutorial.html"><span>教程中心</span></a>
-						</h3>
-					</li>
-					<li class="navLi">
-						<h3>
-							<a href="Case.html"><span>产品案例</span></a>
-						</h3>
-					</li>
-					<li class="navLi">
-						<h3>
-							<a href="Dynamic.html"><span>更新记录</span></a>
-						</h3>
-					</li>
-					<li class="navLi on">
-						<h3>
-							<a href="Company.html"><span>关于我们</span></a>
-						</h3>
-					</li>
-				</ul>
-			</div>
-			<div class="header_phone">
-				<img src="images/icon_phone.png" class="h_phone fl">
-				<div class="phone fl">
-					<h4>服务咨询热线：</h4>
-					<h2>0536-11111111</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div class="bannerN animated">
-		<div class="imgFull"><img src="images/ab_bg_01.png" class="img-responsive"></div>
-		<h2 class="banH2 wow fadeInUp">关于我们</h2>
-		<h3 class="wow fadeInUp">简易聊是一款支持全平台多端数据同步的聊天助手，解决了客服在移动端使用知识库的需求，
-			可一键发布朋友圈，更提供了悬浮精灵，可以在微信，QQ等聊天界面中，直接启动简易聊，查找回复内容，一键复制。
-			目前已经支持微信、QQ、千牛、阿里旺旺、抖音电脑版、抖店、京麦咚咚、拼多多商家工作台、小红书客服工作台、快手小店等众多聊天工具......</h3>
-		<div class="sky">
-			<div class="clouds_one"></div>
-			<div class="clouds_two"></div>
-			<div class="clouds_three"></div>
-		</div>
-	</div>
-	<!--介绍内容-->
-	<div class="d-f f-c a-i-c j-c-c container">
+      <img src="./images/weixing-ma.jpg" class="weixin-comp" />
 
-		<br>
-		<br>
-		<br>
+      <hr />
 
-		<img src="images/weixing-ma.jpg" class="weixin-comp">
+      <h3>扫一扫添加企业微信</h3>
+      <hr />
+      <div class="js_p">
+        简易聊是一款跨平台快捷回复工具，让客服少打字回复快，解决客服工作中相同问题重复回复，打字又慢又辛苦的问题，还能大幅提升对话质量，它能自动吸附在微信,QQ,千牛,企微,京东,拼多多等各类聊天软件的旁边，将您的常用话术放在简易聊中一键回复，支持多人共享，实时同步。
+      </div>
+      <hr />
+    </div>
 
-		<hr>
-
-		<h3>扫一扫添加企业微信</h3>
-		<hr>
-		<div class="js_p">
-			简易聊
-			是一款跨平台快捷回复工具，让客服少打字回复快，解决客服工作中相同问题重复回复，打字又慢又辛苦的问题，还能大幅提升对话质量，它能自动吸附在微信,QQ,千牛,企微,京东,拼多多等各类聊天软件的旁边，将您的常用话术放在易歪歪中一键回复，支持多人共享，实时同步。
-		</div>
-		<hr>
-
-	</div>
-
-	<!--底部样式-->
-	<div class="section-footer">
-		<div class="sf_c">
-			<div class="sf_cf">
-				<div class="row mb003">
-					<div class="col-md-6 col-sm-6 pl1">
-						<a name="aboutUs"></a>
-						<img src="images/logo-9.png" class="sf_logo" title="">
-						客服聊天助手
-						<p class="mt02">湛江市聚趣科技有限公司</p>
-						<p>微信：请用手机微信扫右侧二维码</p>
-						<p>邮箱：1276177103@qq.com</p>
-						<p>工作时间：周一至周日上午9点-凌晨2点</p>
-					</div>
-					<div class="foot_img_b col-md-6 col-sm-6 hidden-xs">
-						<img class="foot_img" src="images/weixing-ma.jpg" title="扫码加客服咨询">
-						<p class="text-center padding-top-10">扫码加客服咨询</p>
-					</div>
-				</div>
-				<div class="row">
-					<p class="col-md-12 col-sm-12 text-center mb003">
-						本软件只是客服聊天辅助工具，研发初衷是为了让客服工作更轻松、更高效。切勿用于非法用途！
-					</p>
-					<div class="col-md-12 col-sm-12 ta_c mb003">
-						Copyright © 2009 - 2024
-						<a title="" href="www.jianyiliao99.com">简易聊</a> All rights reserved.
-						<a target="_blank" href="https://beian.miit.gov.cn"> 粤ICP备2023146692号-1 </a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="cndns-right">
-		<div class="cndns-right-meau meau-code">
-			<a href="javascript:" class="cndns-right-btn">
-				<span class="demo-icon fa fa-qq"></span>
-				<p>
-					关注<br />
-					QQ
-				</p>
-			</a>
-			<div class="cndns-right-box">
-				<div class="box-border">
-					<div class="sev-t">
-						<img src="images/weixing-ma.jpg" />
-						<i>关注官方QQ</i>
-						<div class="clear"></div>
-					</div>
-					<span class="arrow-right"></span>
-				</div>
-			</div>
-		</div>
-		<div class="cndns-right-meau meau-code">
-			<a href="javascript:" class="cndns-right-btn">
-				<span class="demo-icon">&#xe903;</span>
-				<p>
-					关注<br />
-					微信
-				</p>
-			</a>
-			<div class="cndns-right-box">
-				<div class="box-border">
-					<div class="sev-t">
-						<img src="images/weixing-ma.jpg" />
-						<i>关注官方微信</i>
-					</div>
-					<span class="arrow-right"></span>
-				</div>
-			</div>
-		</div>
-		<div class="cndns-right-meau meau-top" id="top-back">
-			<a href="javascript:" class="cndns-right-btn" onclick="topBack()">
-				<span class="demo-icon">&#xe904;</span>
-				<i>顶部</i>
-			</a>
-		</div>
-	</div>
-</body>
-
+    <!--底部样式-->
+    <div class="section-footer">
+      <div class="sf_c">
+        <div class="sf_cf">
+          <div class="row mb003">
+            <div class="col-md-6 col-sm-6 pl1">
+              <a name="aboutUs"></a>
+              <img src="./images/logo-9.png" class="sf_logo" title="" />
+              客服聊天助手
+              <p class="mt02">湛江市聚趣科技有限公司</p>
+              <p>微信：请用手机微信扫右侧二维码</p>
+              <p>邮箱：1276177103@qq.com</p>
+              <p>工作时间：周一至周日上午9点-凌晨2点</p>
+            </div>
+            <div class="foot_img_b col-md-6 col-sm-6 hidden-xs">
+              <img
+                class="foot_img"
+                src="./images/weixing-ma.jpg"
+                title="扫码加客服咨询"
+              />
+              <p class="text-center padding-top-10">扫码加客服咨询</p>
+            </div>
+          </div>
+          <div class="row">
+            <p class="col-md-12 col-sm-12 text-center mb003">
+              本软件只是客服聊天辅助工具，研发初衷是为了让客服工作更轻松、更高效。切勿用于非法用途！
+            </p>
+            <div class="col-md-12 col-sm-12 ta_c mb003">
+              Copyright © 2009 - 2024
+              <a title="" href="www.jianyiliao99.com">简易聊</a> All rights
+              reserved.
+              <a target="_blank" href="https://beian.miit.gov.cn">
+                粤ICP备2023146692号-1
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cndns-right">
+      <div class="cndns-right-meau meau-code">
+        <a href="javascript:" class="cndns-right-btn">
+          <span class="demo-icon fa fa-qq"></span>
+          <p>
+            关注<br />
+            QQ
+          </p>
+        </a>
+        <div class="cndns-right-box">
+          <div class="box-border">
+            <div class="sev-t">
+              <img src="./images/weixing-ma.jpg" class="qr_img" />
+              <i>添加官方QQ</i>
+              <div class="clear"></div>
+            </div>
+            <span class="arrow-right"></span>
+          </div>
+        </div>
+      </div>
+      <div class="cndns-right-meau meau-code">
+        <a href="javascript:" class="cndns-right-btn">
+          <span class="demo-icon">&#xe903;</span>
+          <p>
+            关注<br />
+            微信
+          </p>
+        </a>
+        <div class="cndns-right-box">
+          <div class="box-border">
+            <div class="sev-t">
+              <img src="./images/weixing-ma.jpg" class="qr_img" />
+              <i>添加官方微信</i>
+            </div>
+            <span class="arrow-right"></span>
+          </div>
+        </div>
+      </div>
+      <div class="cndns-right-meau meau-top" id="top-back">
+        <a href="javascript:" class="cndns-right-btn" onclick="topBack()">
+          <span class="demo-icon">&#xe904;</span>
+          <i>顶部</i>
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
